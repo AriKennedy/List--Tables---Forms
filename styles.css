@@ -1,0 +1,49 @@
+table, tr, td {
+    
+    border-style: double;
+    border-color: white;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    background-color: rgb(114, 197, 224);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.form_title {
+    width: 100%;
+    text-align: center;
+    border-style: inset;
+    background-color: lightyellow;
+    color: red;
+}
+
+.multi-buttons {
+    text-align: center;
+}
+
+.buttons {
+    background-color: #e0ece8; /* Green */
+    border: none;
+    color: rgb(19, 18, 18);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 8px;
+}
+
