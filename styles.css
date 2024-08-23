@@ -4,7 +4,7 @@ table, tr, td {
     border-color: white;
 }
 
-td {
+.user_input, .selector {
     text-align: center;
 }
 
@@ -20,9 +20,15 @@ body {
 .form_title {
     width: 100%;
     text-align: center;
-    border-style: inset;
+    font-size: large;
+    border-style: double;
     background-color: lightyellow;
     color: red;
+}
+
+.sports {
+    text-align: left;
+    cursor: pointer;
 }
 
 .multi-buttons {
@@ -30,7 +36,7 @@ body {
 }
 
 .buttons {
-    background-color: #e0ece8; /* Green */
+    background-color: #e0ece8;
     border: none;
     color: rgb(19, 18, 18);
     padding: 20px;
@@ -40,6 +46,7 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .photo {
