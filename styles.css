@@ -1,56 +1,64 @@
-table, tr, td {
-    
-    border-style: double;
-    border-color: white;
+table,
+tr,
+td {
+  border-style: double;
+  border-color: white;
 }
 
-.user_input, .selector {
-    text-align: center;
+.user_input,
+.selector {
+  text-align: center;
 }
 
 table {
-    background-color: rgb(114, 197, 224);
+  background-color: rgb(114, 197, 224);
 }
 
 body {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .form_title {
-    width: 100%;
-    text-align: center;
-    font-size: large;
-    border-style: double;
-    background-color: lightyellow;
-    color: red;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  border-style: double;
+  background-color: lightyellow;
+  color: red;
+}
+
+.address_input {
+  height: 100px;
+  width: 100px;
+  resize: both;
+  overflow: auto !important;
 }
 
 .sports {
-    text-align: left;
-    cursor: pointer;
+  text-align: left;
+  cursor: pointer;
 }
 
 .multi-buttons {
-    text-align: center;
+  text-align: center;
 }
 
 .buttons {
-    background-color: #e0ece8;
-    border: none;
-    color: rgb(19, 18, 18);
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+  background-color: #e0ece8;
+  border: none;
+  color: rgb(19, 18, 18);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .photo {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
 }
-

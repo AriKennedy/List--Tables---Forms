@@ -10,41 +10,80 @@
     <form action="">
       <table class="registration">
         <tr>
-          <td colspan="2" class="form_title"><strong>Registration Form</strong></td>
+          <td colspan="2" class="form_title">
+            <strong>Registration Form</strong>
+          </td>
         </tr>
         <tr>
           <td class="user_input">Enter Name</td>
           <td>
-            <input type="text" name="username" id="name_id" required/>
+            <input type="text" name="username" id="name_id" required />
           </td>
         </tr>
 
         <tr>
           <td class="user_input">Enter Password</td>
           <td class="password_input">
-            <input type="password" name="pw" id="password_id" required/>
+            <input type="password" name="pw" id="password_id" required />
           </td>
         </tr>
 
         <tr>
           <td class="user_input">Enter Address</td>
-          <td class="address_input">
-            <input type="text" name="address" id="address_id" maxlength="50" required/>
+          <td>
+            <textarea
+              class="address_input"
+              name="address"
+              id="address_id"
+              maxlength="50"
+              required
+            >
+            </textarea>
           </td>
         </tr>
         <tr>
           <td class="selector">Select Game</td>
 
           <td>
-            <input class="sports" type="checkbox" name="football" id="fav_sport1" required/>
+            <input
+              class="sports"
+              type="checkbox"
+              name="football"
+              id="fav_sport1"
+              required
+            />
             <label for="fav_sport1">Football</label><br />
-            <input class="sports" type="checkbox" name="hockey" id="fav_sport2" required/>
+            <input
+              class="sports"
+              type="checkbox"
+              name="hockey"
+              id="fav_sport2"
+              required
+            />
             <label for="fav_sport2">Hockey</label><br />
-            <input class="sports" type="checkbox" name="badmiton" id="fav_sport3" required/>
+            <input
+              class="sports"
+              type="checkbox"
+              name="badmiton"
+              id="fav_sport3"
+              required
+            />
             <label for="fav_sport3">Badmiton</label><br />
-            <input class="sports" type="checkbox" name="cricket" id="fav_sport4" required/>
+            <input
+              class="sports"
+              type="checkbox"
+              name="cricket"
+              id="fav_sport4"
+              required
+            />
             <label for="fav_sport4">Cricket</label><br />
-            <input class="sports" type="checkbox" name="vollyball" id="fav_sport5" required/>
+            <input
+              class="sports"
+              type="checkbox"
+              name="vollyball"
+              id="fav_sport5"
+              required
+            />
             <label for="fav_sport5">Vollyball</label><br />
           </td>
         </tr>
@@ -97,7 +136,11 @@
 
         <tr>
           <td colspan="2" class="multi-buttons">
-            <button class="buttons" type="button" onclick="alert('Hi! Click me again!')">
+            <button
+              class="buttons"
+              type="button"
+              onclick="alert('Hi! Click me again!')"
+            >
               Click Me Pls
             </button>
             <button class="buttons" type="reset">Reset</button>
