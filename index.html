@@ -16,21 +16,21 @@
         </tr>
         <tr>
           <td class="user_input">Enter Name</td>
-          <td>
+          <td class="tabledata">
             <input type="text" name="username" id="name_id" required />
           </td>
         </tr>
 
         <tr>
           <td class="user_input">Enter Password</td>
-          <td class="password_input">
+          <td class="tabledata">
             <input type="password" name="pw" id="password_id" required />
           </td>
         </tr>
 
         <tr>
           <td class="user_input">Enter Address</td>
-          <td>
+          <td class="tabledata">
             <textarea
               class="address_input"
               name="address"
@@ -42,9 +42,9 @@
           </td>
         </tr>
         <tr>
-          <td class="selector">Select Game</td>
+          <td class="user_input">Select Game</td>
 
-          <td>
+          <td class="tabledata">
             <input
               class="sports"
               type="checkbox"
@@ -64,11 +64,11 @@
             <input
               class="sports"
               type="checkbox"
-              name="badmiton"
+              name="badminton"
               id="fav_sport3"
               required
             />
-            <label for="fav_sport3">Badmiton</label><br />
+            <label for="fav_sport3">Badminton</label><br />
             <input
               class="sports"
               type="checkbox"
@@ -80,18 +80,19 @@
             <input
               class="sports"
               type="checkbox"
-              name="vollyball"
+              name="volleyball"
               id="fav_sport5"
               required
             />
-            <label for="fav_sport5">Vollyball</label><br />
+            <label for="fav_sport5">Volleyball</label><br />
           </td>
         </tr>
 
         <tr>
-          <td class="selector">Gender</td>
-          <td>
+          <td class="user_input">Gender</td>
+          <td class="tabledata">
             <input
+              class="genderselect"
               type="radio"
               name="gender"
               id="gender_male"
@@ -112,9 +113,10 @@
 
         <tr>
           <td class="user_input">Select ur age</td>
-          <td>
+          <td class="tabledata">
             <label for="age_selector"></label>
             <input
+              class="age-select"
               type="number"
               name="age"
               id="age_selector"
@@ -127,8 +129,8 @@
         </tr>
 
         <tr>
-          <td class="selector">Select Photo</td>
-          <td>
+          <td class="user_input">Select Photo</td>
+          <td class="tabledata">
             <label for="myphoto"></label>
             <input class="photo" type="file" name="Photos" id="myphoto" />
           </td>
@@ -141,7 +143,7 @@
               type="button"
               onclick="alert('Hi! Click me again!')"
             >
-              Click Me Pls
+              Click Me
             </button>
             <button class="buttons" type="reset">Reset</button>
             <button class="buttons" type="submit">Submit Form</button>

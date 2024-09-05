@@ -5,13 +5,17 @@ td {
   border-color: white;
 }
 
-.user_input,
-.selector {
-  text-align: center;
+
+.tabledata {
+  padding-left: 5%;
+}
+.user_input{
+  padding-right: 20px;
+  padding-left: 10px;
 }
 
 table {
-  background-color: rgb(114, 197, 224);
+  background-color: rgb(92, 201, 250);
 }
 
 body {
@@ -24,13 +28,13 @@ body {
   text-align: center;
   font-size: 30px;
   border-style: double;
-  background-color: lightyellow;
+  background-color: rgb(254, 255, 180);
   color: red;
 }
 
 .address_input {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 190px;
   resize: both;
   overflow: auto !important;
 }
@@ -38,27 +42,38 @@ body {
 .sports {
   text-align: left;
   cursor: pointer;
+  text-indent: 15px;
 }
 
 .multi-buttons {
   text-align: center;
+  width: 100%;
+}
+.registration{
+  width: 100%;
 }
 
 .buttons {
   background-color: #e0ece8;
   border: none;
   color: rgb(19, 18, 18);
-  padding: 20px;
+  padding: 1% 1%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  /* margin: 4px 2px; */
   cursor: pointer;
   border-radius: 4px;
+  transition-duration: 0.4s;
+  width: 30%;
 }
 
-.photo {
-  width: 100%;
-  border-radius: 8px;
+.buttons:hover {
+  background-color: #53645e;
+  color: white;
+}
+
+.age-select {
+  width: 100px;
 }
